@@ -1,0 +1,181 @@
+{
+  "data": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ4aWFvZm91Iiwicm9sZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiYnVpbGRlclBybyJ9LHsiYXV0aG9yaXR5Ijoi5qih5ouf5Z-O5biCIn0seyJhdXRob3JpdHkiOiLnspLlrZDmjojmnYMifV0sInNvdXJjZSI6bnVsbCwibW1kSWQiOjE3MDE5LCJhdXRob3JpdGllcyI6WyLnspLlrZDmjojmnYMiLCJidWlsZGVyUHJvIiwiUk9MRV9VU0VSIiwi5qih5ouf5Z-O5biCIl0sImNsaWVudF9pZCI6InRoaW5nanMiLCJ3ZWl4aW4iOm51bGwsInBob25lIjoiMTg2MzAxMTYwOTYiLCJzY29wZSI6WyJ1c2VyX2luZm8iXSwibmFtZSI6bnVsbCwiaWQiOiIxODEyMDUxNm81am9paGF2IiwiZXhwIjoxNjI2MTY1MDczLCJqdGkiOiJiOTE0ZWFhNy02YWI5LTQyNDgtOTRkNy1jZGRmMGUxMWNiNGYiLCJlbWFpbCI6InhpYW9mb3U4QDE2My5jb20iLCJ1c2VybmFtZSI6InhpYW9mb3UifQ.HSYPdt43c60ZmW4zlp9jDFpT3j-LnZ2IumT2XtC2UZM",
+    "terrainUrl": "",
+    "isProxima": true,
+    "cameraFlyTo": {
+      "heading": -0.0654,
+      "angle": 0,
+      "pitch": 89.99,
+      "time": 0,
+      "lonlat": [
+        114.07286,
+        22.70077,
+        -1.0244548320770264E-8
+      ],
+      "height": 150507.50679
+    },
+    "background": {
+      "type": "skybox",
+      "value": "/image"
+    },
+    "tileLayer": [
+      {
+        "name": "OSM街道(84)",
+        "style": {
+          "template": "custom",
+          "rgba": "rgba(229,184,184,1)",
+          "gradientColorPerBar": [
+            0,
+            0.5,
+            0.7,
+            1
+          ],
+          "code": 2106,
+          "type": "grayFilter",
+          "grayFilterEnable": true,
+          "gradientCustomColorPerBar": [
+            0,
+            0.5,
+            0.7,
+            1
+          ],
+          "gradientColorOverlayType": "night",
+          "saturation": 1,
+          "grayFilterColorBar": [
+            [
+              "0",
+              "12",
+              "43",
+              "1"
+            ],
+            [
+              "129",
+              "150",
+              "173",
+              "1"
+            ],
+            [
+              "0",
+              "28",
+              "55",
+              "1"
+            ]
+          ],
+          "singleFilterEnable": false,
+          "angleX": 0,
+          "angleY": 0,
+          "angleZ": 0,
+          "gradientCustomColorBar": [
+            [
+              255,
+              255,
+              255,
+              1
+            ],
+            [
+              255,
+              255,
+              255,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "gradientColorBar": [
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "gradientMapDirection": [
+            0.6560590289905069,
+            -0.7547095802227722,
+            1.8485053434113212E-16
+          ],
+          "grayFilterPerBar": [
+            0,
+            0.46,
+            1
+          ],
+          "brightness": 1,
+          "contrast": 1,
+          "name": "雾蓝滤镜_OSM",
+          "hue": 0.0,
+          "style": "custom",
+          "filterType": "grayFilter",
+          "gradientColorOverlayEnable": true,
+          "gamma": 1
+        },
+        "type": "TileLayer",
+        "imgSrc": "baseMap/system/baseMap03.png",
+        "url": "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      }
+    ],
+    "terrainExaggeration": 1,
+    "exportTime": 20210713175029,
+    "scenes": [],
+    "layers": [
+      {
+        "renderOrder": 11,
+        "enable": true,
+        "offsetHeight": 0,
+        "name": "区域边界线",
+        "layerConfig": {
+          "offsetHeight": 0,
+          "type": "vector",
+          "glowStrength": 1,
+          "texType": "image",
+          "width": 6,
+          "lineType": "Plane",
+          "opacity": 0.5,
+          "color": "#0fbff9"
+        },
+        "id": 26083,
+        "type": "FeatureLayer",
+        "url": "/area/sz_area_line.geojson",
+        "geometryType": "GeoLine"
+      }
+    ],
+    "depthMode": 1,
+    "map": {
+      "style": {
+        "fog": false,
+        "fogExp": false,
+        "fogDensity": 1,
+        "fogExpDensity": 0,
+        "fogExpColor": "#ff0505",
+        "atmosphere": true,
+        "night": false
+      },
+      "type": "Map"
+    }
+  },
+  "success": 1
+}
