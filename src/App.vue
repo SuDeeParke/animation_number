@@ -1,13 +1,13 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import { ref, reactive } from 'vue'
+import { ref } from 'vue'
 import Box from './layout/Box.vue';
 import Search from './components/Search.vue';
 import GradeCard from './view/GradeCard.vue';
 import Modal from './components/Modal.vue';
 
-const grade = reactive({
+const grade = ref({
   Chinese: 96,
   Math: 98,
   English: 77,
@@ -16,11 +16,14 @@ const grade = reactive({
 function getSearchResult(e: any) {
   console.log(e)
 }
+function defaultOutput() {
+  console.log(1)
+}
 </script>
 
 <template>
   <div class="row">
-    <Search @search="getSearchResult" data-status="start" @double-click="console.log(1)"></Search>
+    <Search @search="getSearchResult" data-status="start" @double-click="defaultOutput"></Search>
   </div>
   <div class="row">
     <GradeCard></GradeCard>
